@@ -8,7 +8,7 @@
 	bottom:0;
 	z-index:-1;
 	display:block;
-    background: url("https://github.com/Raiden3070/todolist/blob/main/src/backimg.jpg") ;
+    background: url("./todolist/backimg.jpg") ;
     background-size:cover;
     font-family: sans-serif;
     padding: 0;
