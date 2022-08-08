@@ -1,3 +1,7 @@
+h2{
+    color: blueviolet;
+}
+
 .bod{
     /*/background-image: url("/backimage.jpg");*/
     
@@ -8,7 +12,7 @@
 	bottom:0;
 	z-index:-1;
 	display:block;
-    background: url("/backimage4_edit.jpg") ;
+    background: url("./backimg.jpg") ;
     background-size:cover;
     font-family: sans-serif;
     padding: 0;

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect} from 'react';
 import TodoList from './TodoList';
 import {v4 as uuidv4} from 'uuid';
 import style1 from './sty.module.css';
+import Background from './backimg.jpg';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
@@ -42,7 +43,7 @@ function App() {
   return (
     <>
     <body className={style1.bod}>
-      {/*<h2>Lets get this done</h2>*/}
+      <h2>Lets get this done</h2>
       <div className={style1.con1} >  
         <input className={style1.input} ref= {todoNameRef} type="text" />
         <button className={style1.but} onClick={handleAddTodo}>Add Todo</button>
