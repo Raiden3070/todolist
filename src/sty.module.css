@@ -1,0 +1,79 @@
+.bod{
+    /*/background-image: url("/backimage.jpg");*/
+    
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	display:block;
+    background: url("/backimage4_edit.jpg") ;
+    background-size:cover;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.con1{
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.con2{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.but{
+    background-color: royalblue;
+    padding: 6px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: skyblue;
+    border-style:outset;
+
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.input{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline-width: 0ch;
+    
+}
+input:focus{
+    background-color: rgb(228, 240, 250);
+}
+
+.warning{
+    color: rgb(255, 153, 0);
+    font-style:oblique;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+.list{
+    color:rgb(59, 7, 201);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+}
